@@ -9,8 +9,26 @@ namespace gestion_personnel
     class Personne
     {
         //Attributs de la classe personne
-        string Nom;
-        int Age;
+        private string nom;
+        private int age;
+
+        //getter et setter
+        public string Nom
+        {
+            get { return nom; }
+            set { nom = value; }
+        }
+
+        public int Age
+        {
+            get { return Age; }
+            set
+            {
+                if (value >= 0) age = value;
+                else Console.WriteLine("Erreur: L'âge doit être positif");
+                
+            }
+        }
         //Constructeur de la classe Personne
         public Personne(string nom, int age)
         {
@@ -20,7 +38,7 @@ namespace gestion_personnel
         // Méthode AfficherInfo
         public void AfficherInfo()
         {
-            Console.WriteLine($"Nom:{Nom}, Age:{Age}");
+            Console.WriteLine($"Nom:{nom}, Age:{age}");
 
         }
     }

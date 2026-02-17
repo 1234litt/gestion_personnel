@@ -11,7 +11,7 @@ namespace gestion_personnel
         static void Main(string[] args)
         {
             Personne personnel1 = new Personne("Paola", 25);
-            Personne personnel2 = new Personne("Michelle", 26);
+            Personne personnel2 = new Personne("Michelle", -6);
 
             //Appel de la methode afficherinfo dans le programme principale
             personnel1.AfficherInfo();
