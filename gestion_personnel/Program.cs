@@ -44,6 +44,15 @@ namespace gestion_personnel
             // Vérification finale
             etudiant1.AfficherInfos();
 
+            //Opération de la classe Voiture
+            Voiture maVoiture = new Voiture("Toyota");
+
+            maVoiture.Demarrer();       
+            maVoiture.Accelerer(50);   
+            maVoiture.Freiner(20);      
+
+            Console.WriteLine($"Vitesse finale : {maVoiture.Vitesse} km/h");
+
 
             Console.Read();
         }
