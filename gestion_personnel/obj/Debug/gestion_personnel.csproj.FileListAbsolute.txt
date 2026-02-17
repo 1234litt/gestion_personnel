@@ -1,0 +1,7 @@
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\bin\Debug\gestion_personnel.exe.config
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\bin\Debug\gestion_personnel.exe
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\bin\Debug\gestion_personnel.pdb
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\obj\Debug\gestion_personnel.csproj.AssemblyReference.cache
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\obj\Debug\gestion_personnel.csproj.CoreCompileInputs.cache
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\obj\Debug\gestion_personnel.exe
+C:\Users\Raoul\source\repos\gestion_personnel\gestion_personnel\obj\Debug\gestion_personnel.pdb
